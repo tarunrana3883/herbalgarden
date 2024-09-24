@@ -16,6 +16,8 @@ export default function App() {
         <Route path='/Vedicmaterials' element={<Vedicmaterials />} />
         <Route path='/Vedicpractitioner' element={<Vedicpractitioner />} />
         <Route path='/Patientfeedback' element={<Patientfeedback />} />
+        
+      
       </Routes>
     </BrowserRouter>
   )

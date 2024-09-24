@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 const DropDownMenu = () => {
@@ -34,7 +34,7 @@ const DropDownMenu = () => {
 
                         <div className='flex justify-center items-center hover:bg-gray-100 hover:scale-110 duration-300'>
                             <i className="fa-solid fa-right-from-bracket text-sm text-slate-400" />
-                            <a href="#/" className="block px-4 py-2 text-sm text-gray-700 " role="menuitem">Sign In</a>
+                            <Link to="/Login" className="block px-4 py-2 text-sm text-gray-700 " role="menuitem">Sign In</Link>
                         </div>
 
 
@@ -43,7 +43,7 @@ const DropDownMenu = () => {
                                 <path fill-rule="evenodd" d="M3 4.25A2.25 2.25 0 0 1 5.25 2h5.5A2.25 2.25 0 0 1 13 4.25v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 0-.75-.75h-5.5a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h5.5a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 1 1.5 0v2A2.25 2.25 0 0 1 10.75 18h-5.5A2.25 2.25 0 0 1 3 15.75V4.25Z" clip-rule="evenodd" />
                                 <path fill-rule="evenodd" d="M19 10a.75.75 0 0 0-.75-.75H8.704l1.048-.943a.75.75 0 1 0-1.004-1.114l-2.5 2.25a.75.75 0 0 0 0 1.114l2.5 2.25a.75.75 0 1 0 1.004-1.114l-1.048-.943h9.546A.75.75 0 0 0 19 10Z" clip-rule="evenodd" />
                             </svg>
-                            <a href="#/" className="block px-4 py-2 text-sm text-gray-700 " role="menuitem">Sign Out</a>
+                            <Link to="/Signin" className="block px-4 py-2 text-sm text-gray-700 " role="menuitem">Sign Out</Link>
                         </div>
 
                     </div>

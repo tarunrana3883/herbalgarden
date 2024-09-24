@@ -6,3 +6,4 @@ export {default as Vedicpractitioner} from './Vedicpractitioner'
 export {default as Patientfeedback} from './Patientfeedback'
 export {default as About} from './About'
 export {default as Home} from './Home'
+
